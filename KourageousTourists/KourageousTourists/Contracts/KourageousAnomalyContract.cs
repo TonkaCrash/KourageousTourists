@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Linq;
 using System.Collections.Generic;
-using Contracts;
+using System.Linq;
 using FinePrint.Contracts.Parameters;
 
-namespace KourageousTourists
+namespace KourageousTourists.Contracts
 {
 
 	public class KourageousAnomaly
@@ -143,7 +142,7 @@ namespace KourageousTourists
 		protected override bool Generate()
 			//System.Type contractType, Contract.ContractPrestige difficulty, int seed, State state)
 		{
-			KourageousTouristsAddOn.printDebug ("entered");
+			KourageousTouristsAddOn.printDebug ("Anomaly entered");
 
 			targetBody = selectNextCelestialBody ();
 			if (targetBody == null)

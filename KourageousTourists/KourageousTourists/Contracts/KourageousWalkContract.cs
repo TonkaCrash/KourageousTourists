@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using Contracts;
 using FinePrint.Contracts.Parameters;
 
-namespace KourageousTourists
+namespace KourageousTourists.Contracts
 {
 	public class KourageousWalkContract : KourageousContract
 	{
@@ -12,7 +10,7 @@ namespace KourageousTourists
 		protected override bool Generate()
 			//System.Type contractType, Contract.ContractPrestige difficulty, int seed, State state)
 		{
-			KourageousTouristsAddOn.printDebug ("entered");
+			KourageousTouristsAddOn.printDebug ("Walk entered");
 
 			targetBody = selectNextCelestialBody ();
 			if (targetBody == null)

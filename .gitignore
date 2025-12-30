@@ -1,4 +1,7 @@
 *~
-KourageousTourists/KourageousTourists/bin
-KourageousTourists/KourageousTourists/obj
 */.idea
+.vs
+Source/.vs
+Source/bin
+Source/obj
+Source/KourageousTourists.csproj.user

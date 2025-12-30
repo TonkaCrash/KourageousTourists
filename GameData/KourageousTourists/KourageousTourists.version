@@ -2,19 +2,19 @@
   "NAME": "Kourageous Tourists",
   "URL": "https://raw.githubusercontent.com/whale2/KourageousTourists/master/KourageousTourists.version",
   "VERSION": {
-    "MAJOR": 0,
-    "MINOR": 5,
-    "PATCH": 2
+    "MAJOR": 1,
+    "MINOR": 0,
+    "PATCH": 0
   },
   "KSP_VERSION": {
     "MAJOR": 1,
-    "MINOR": 9,
-    "PATCH": 1
+    "MINOR": 12,
+    "PATCH": 5
   },
   "KSP_VERSION_MIN": {
     "MAJOR": 1,
-    "MINOR": 7,
-    "PATCH": 0
+    "MINOR": 12,
+    "PATCH": 5
   },
   "KSP_VERSION_MAX": {
     "MAJOR": 1,
